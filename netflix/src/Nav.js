@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import netflix from './netflix-logo-removebg-preview.png'
 import "./Nav.css";
 function Nav() {
 	const [show, handleShow] = useState(false);
@@ -19,7 +20,7 @@ function Nav() {
 			<div className="nav__contents">
 				<img
 					className="nav__logo"
-					src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
+					src={netflix}
 					alt="neflix-logo"
 				/>
 				<img

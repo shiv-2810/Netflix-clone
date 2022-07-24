@@ -20,9 +20,9 @@
 
 .nav__logo{
     position: fixed;
-    top: 10px;
+    top: 4px;
     left: 0;
-    width: 80px;
+    width: 120px;
     object-fit: contain;
     padding-left: 20px;
     cursor: pointer;
