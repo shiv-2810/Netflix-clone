@@ -15,11 +15,12 @@
 }
 
 .row__poster{
-    max-height: 100px;
+    max-height: 120px;
     margin-right: 10px;
     object-fit: contain;
     width: 100%;
     transform: transform 450ms;
+    border-radius: 0.15rem;
 }
 
 .row__poster:hover{

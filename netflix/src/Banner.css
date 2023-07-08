@@ -1,19 +1,22 @@
 .banner{
     position: relative;
-    height: 448px;
+    height: 800px;
     color: white;
     object-fit: contain;
 }
 
 .banner__contents{
-    margin-left: 30px;
+    position: absolute;
+    /* margin-left: 30px;
     padding-top: 140px;
-    height: 190px;
+    height: 190px; */
+    top: 180px;
+    left: 50px;
 }
 
 .banner__title{
-    font-size: 3rem;
-    font-weight: 800;
+    font-size: 7rem;
+    font-weight: 900;
     padding-bottom: 0.3rem;
 }
 
@@ -27,12 +30,13 @@
 }
 
 .banner--fadeBottom{
-    height: 7.4rem;
+    height: 20rem;
     background-image: linear-gradient(
         180deg,
         transparent,rgba(37,37,37,0.61),
         #111
     );
+    margin-top:200px;
 }
 
 .banner__button{
@@ -42,16 +46,21 @@
     border: none;
     font-weight: 700;
     border-radius: 5px;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
     margin-right: 1rem;
-    padding-top: 0.5rem;
+    padding-top: 1rem;
     background-color: rgba(51,51,51,0.5);
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
 }
 
 .banner__button:hover{
     color: #000;
     background-color: #e6e6e6;
     transition: all 0.2s;
+}
+.whimsical__box{
+    /* height: 200px; */
+    position: absolute;
+    bottom: -100px;
 }
